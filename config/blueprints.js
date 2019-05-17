@@ -17,7 +17,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  // actions: false,
+   actions: true,
 
 
   /***************************************************************************
@@ -26,7 +26,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  rest: false,
+  rest: true,
 
 
   /***************************************************************************
@@ -35,7 +35,9 @@ module.exports.blueprints = {
   * (These are enabled by default in development only.)                      *
   *                                                                          *
   ***************************************************************************/
-
-  shortcuts: false,
-
+  prefix: '',
+  pluralize: false,
+  shortcuts: true,  
+  
+  autoWatch: true,
 };
